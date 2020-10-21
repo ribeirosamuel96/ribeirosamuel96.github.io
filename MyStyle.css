@@ -1,0 +1,178 @@
+@font-face { font-family: Pixel; src: url('Fonts/Pixellari.ttf'); } 
+*{
+		margin: 0;
+		padding: 0;
+
+}
+
+body
+{
+	background-color: #030F2B;
+	font-family: Pixel;
+}
+
+h1
+{
+	color: 	#EEC541;
+}
+
+
+
+.navBar
+{
+	
+	height: 50px;
+	background-color: #961277;	
+	width: 100%;
+	line-height: 50px;
+	box-shadow: 0px 7px 24px -6px rgba(150,18,119,1);
+
+}
+
+#mainDiv
+{
+	width: 100%;
+	height: 400px;
+	background-color: #2F055F;
+	color: 	#B2FDC9;
+	box-shadow: 0px 7px 24px -6px rgba(47,5,95,1);
+
+}
+
+#mainDivWriting
+{
+	clear: both;
+	height: 200px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.portDiv
+{
+	margin-top: 25px;
+	margin-left: 200px;
+	color: 	#EEC541;
+}
+
+#logo
+{
+	margin-right: 100px;
+	float: right;
+	color: 	#EEC541;
+	
+}
+
+#logoText
+{
+	
+}
+
+#links
+{
+	float: left;
+	margin-left: 100px;
+	
+
+}
+
+.link
+{
+	margin-left: 15px;
+	text-decoration: none;
+	color: 	#B2FDC9;
+
+}
+
+.iframeGame
+{
+	margin-left: 100px;
+	width: 1280px;
+	height: 720px;
+	border: 0; 
+	overflow: hidden; 
+}
+
+.gameTitle
+{
+	margin-top: 25px;
+	text-align: center;
+	font-family: Pixel;
+}
+
+.gameComment
+{
+	font-family: Pixel;
+	margin-left: 260px;
+	margin-right: 230px;
+	height: 100px;
+	color: #EEC541;
+
+}
+
+.contactImg
+{
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.contactEmail
+{
+	margin-top: 10px;
+	color: 	#B2FDC9;
+}
+
+.contactDiv
+{
+	margin: auto; 
+	width: 210px; 
+	margin-top: 25px;
+}
+
+.logoImg
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+
+}
+
+.portText
+{
+
+}
+
+.imgPort
+{
+	width: 300px;
+	height: 150px;
+	margin-top: 25px;
+	margin-right: 25px;
+	
+}
+
+.imgDivPortPage
+{
+	height: 150px;
+}
+.imgPortPage
+{
+	width: 300px;
+	height: 150px;
+	margin-top: 25px;
+	margin-right: 25px;
+	display: inline-flex;
+}
+.textPortDiv
+{
+	display: inline-flex;
+	height: 175px;
+	line-height: 175px;
+}
+
+
+
+
+
+
+

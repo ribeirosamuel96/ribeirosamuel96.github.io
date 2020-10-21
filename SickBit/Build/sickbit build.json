@@ -1,0 +1,14 @@
+{
+"companyName": "SRProductions",
+"productName": "SickBit",
+"dataUrl": "sickbit build.data.unityweb",
+"wasmCodeUrl": "sickbit build.wasm.code.unityweb",
+"wasmFrameworkUrl": "sickbit build.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "sickbit build.jpg",
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}
