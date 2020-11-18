@@ -15,6 +15,11 @@ h1
 {
 	color: 	#EEC541;
 }
+h3
+{
+	color: #EEC541;
+	margin-top: 10px;
+}
 
 
 
@@ -43,20 +48,27 @@ h1
 {
 	clear: both;
 	height: 200px;
-	padding-top: 100px;
+	margin-top: 100px;
 	text-align: center;
 }
 
+#divWriting
+{
+	text-align: center;
+}
+
+
+
 .portDiv
 {
-	margin-top: 25px;
-	margin-left: 200px;
+	width: 90vw;
+	padding-left: 7.5vw;
 	color: 	#EEC541;
 }
 
 #logo
 {
-	margin-right: 100px;
+	margin-right: 5vh;
 	float: right;
 	color: 	#EEC541;
 	
@@ -70,7 +82,7 @@ h1
 #links
 {
 	float: left;
-	margin-left: 100px;
+	margin-left: 5vh;
 	
 
 }
@@ -131,6 +143,7 @@ h1
 
 .logoImg
 {
+
 	width: 25px;
 	height: 25px;
 	border-radius: 100%;
@@ -139,11 +152,15 @@ h1
 
 .portText
 {
-
+	display: inline-block;
+	width: 400px;
+	height: 150px;
+	margin-top: 75px;
 }
 
 .imgPort
 {
+	display: inline-block;
 	width: 300px;
 	height: 150px;
 	margin-top: 25px;
@@ -166,10 +183,154 @@ h1
 .textPortDiv
 {
 	display: inline-flex;
-	height: 175px;
-	line-height: 175px;
 }
 
+
+
+
+
+
+@media (max-width:768px)
+{
+*{
+		margin: 0;
+		padding: 0;
+
+}
+
+body
+{
+	background-color: #030F2B;
+	font-family: Pixel;
+}
+
+.navBar
+{
+	
+	height: 50px;
+	background-color: #961277;	
+	width: 100vw;
+	line-height: 50px;
+	box-shadow: 0px 7px 24px -6px rgba(150,18,119,1);
+
+}
+
+#mainDiv
+{
+	width: 100%;
+	height: 300px;
+	background-color: #2F055F;
+	color: 	#B2FDC9;
+	box-shadow: 0px 7px 24px -6px rgba(47,5,95,1);
+
+}
+
+#mainDivWriting
+{
+	clear: both;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#divWriting
+{
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#links
+{
+	float: left;
+	margin-left: 1vh;
+}
+
+#logo
+{
+	margin-right: 1vh;
+	float: right;
+	color: 	#EEC541;
+}
+
+#logoText
+{
+	display: none;
+}
+
+.link
+{
+	margin-left: 5px;
+	text-decoration: none;
+	color: 	#B2FDC9;
+
+}
+
+.logoImg
+{
+	margin-top: 50%;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+
+}
+
+.textPortDiv
+{
+	display: block;
+}
+
+.portDiv
+{
+	width: 90vw;
+	padding-top: 10px;
+	padding-left: 7.5vw;
+	color: 	#EEC541;
+}
+
+.imgPort
+{
+	display: inline-block;
+	width: 300px;
+	height: 150px;
+	margin-top: 25px;
+	margin-right: 25px;
+	
+}
+
+.portText
+{
+	display: block;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.contactEmail
+{
+	margin-top: 10px;
+	margin-left: -15px;
+	color: 	#B2FDC9;
+}
+
+.iframeGame
+{
+	display: none;
+}
+
+.gameComment
+{
+	font-family: Pixel;
+	margin-left: 10px;
+	margin-top: 30px;
+	height: 200px;
+	width: 90vw;
+	color: #EEC541;
+
+}
+	
+}
 
 
 
