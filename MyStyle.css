@@ -32,6 +32,7 @@ h3
 	line-height: 50px;
 	box-shadow: 0px 7px 24px -6px rgba(150,18,119,1);
 
+
 }
 
 #mainDiv
@@ -71,7 +72,18 @@ h3
 	margin-right: 5vh;
 	float: right;
 	color: 	#EEC541;
+	display:  inline-block;
 	
+}
+
+
+
+#wheel
+{
+	margin-top: 5px;
+	margin-left: 38vw;
+	color: 	#EEC541;
+	display:  inline-block;
 }
 
 #logoText
@@ -83,6 +95,7 @@ h3
 {
 	float: left;
 	margin-left: 5vh;
+	display:  inline-block;
 	
 
 }
